@@ -1,11 +1,11 @@
 # Site settings
 author: Brian Birdwell
-title: 
+title: Great Divide
 header-img: img/home-bg.png
 email: bbirdwell@gmail.com
 copyright_name: Brian Birdwell
 description: > # this means to ignore newlines until "baseurl:"
-  
+  code = here.to_there
 baseurl: "" # the subpath of your site, e.g. /blog
 twitter_username: 
 github_username:  great-divide
