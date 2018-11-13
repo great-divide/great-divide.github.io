@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "I See Objects Everywhere"
-date:       2018-11-13 17:57:47 +0000
+date:       2018-11-13 12:57:48 -0500
 permalink:  i_see_objects_everywhere
 ---
 
@@ -42,6 +42,6 @@ This structure was very unwieldy to me at first, but after spending some time in
 
 Great! I thought I was homefree so I started fleshing out my views, cruising along and patting my self on the back for a job well done. 
 
-Then I started making the logic for "terminating" a Contract... Basically in the Edit Contract page, we need to "Return the Tool", i.e. terminate the Contract.  And that's where the madness began. For some reason, I cannot change the "active" (boolean) attribute of a Contract and have it persist. The moment i change a Contract to inactive, I expected to become inactive in its guise as the Contract itself, one User's borrower_contract, and another User's loaner_contract.
+Then I started making the logic for "terminating" a Contract... Basically in the Edit Contract page, we need to "Return the Tool", i.e. terminate the Contract.  And that's where the madness began. I've hit a snag ensuring that all the relevant parties have been updated re: the new status of the Contract.  I've Googled til my fingers were numb and read through Stack Overflow posts til my eyes crossed, and I still can't solve the problem.  I'm sure it's right in front of me, and I look forward to getting through it. 
 
-But no! It doesn't! Even if I find those three instances and change them manually in the same method, the Contract itself immediately reverts back to "active: true" and I cannot for the life of my figure out why. I've Googled til my fingers were numb and read through Stack Overflow posts til my eyes crossed, and I still can't solve the problem.  I'm sure it's right in front of me, and I look forward to getting through it. 
+Stay tuned for the solution in part 2! (see that optimism? fake it til ya make it...)
